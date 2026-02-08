@@ -1,6 +1,6 @@
 This Java file collects JSON data from your local air quality station with this line:
 
-https://api.waqi.info/feed/geo: -00.00000;000.0000/?token=yourapiKey.
+https://api.waqi.info/feed/geo: -00.00000;000.0000/?token=yourapiKey.  I'm in the Southern hemisphere hence the '-' 
 
 and puts the icon on https://aprs.fi/
 
