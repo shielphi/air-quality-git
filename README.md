@@ -9,3 +9,5 @@ https://waqi.info/#/c/5.149/7.297/2.6z
 
 What you want is to read about the API, your key and how to get coordinates here: https://docs.openaq.org/using-the-api/quick-start
 Once you have your key and coordinates enter them into a browser with the https line 2 above.
+TO DO:
+WAQI use decimal coordinates and APRS use aprs style coordinates. APRS beacons need a new number for each beacon, hence the programe writes to a Telemnumber txt file. 
