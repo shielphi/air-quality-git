@@ -116,35 +116,35 @@ package com.ic.executable;
 		        ozone_rating=Ozone_scale(Float.parseFloat(aqiObject.data.iaqi.o3.getV()));
 		        no2_rating=No2_scale(Float.parseFloat(aqiObject.data.iaqi.no2.getV()));
 
-		        if ((aqiObject.data.iaqi.dew.getV()!= "null") ||(aqiObject.data.iaqi.dew.getV()!= "")) {
+		        if ((aqiObject.data.iaqi.dew.getV()!= null) ||(aqiObject.data.iaqi.dew.getV().isEmpty())) {
 		        	dew=aqiObject.data.iaqi.dew.getV();
 		 	        } else dew="0";
 
-		        if ((aqiObject.data.iaqi.h.getV()!= "null")||(aqiObject.data.iaqi.h.getV()!= "")) {
+		        if ((aqiObject.data.iaqi.h.getV()!= null) ||(aqiObject.data.iaqi.h.getV().isEmpty())) {
 		        h=aqiObject.data.iaqi.h.getV();
 		        } else h="0";
 
-		        if ((aqiObject.data.iaqi.no2.getV()!= "null")||(aqiObject.data.iaqi.no2.getV()!= "")) {
+		        if ((aqiObject.data.iaqi.no2.getV()!= null) ||(aqiObject.data.iaqi.no2.getV().isEmpty())) {
 		        No2=aqiObject.data.iaqi.no2.getV();
 		        } else No2="0";
 
-		        if ((aqiObject.data.iaqi.o3.getV()!= "null")||(aqiObject.data.iaqi.o3.getV()!= "")) {
+		        if ((aqiObject.data.iaqi.o3.getV()!= null) ||(aqiObject.data.iaqi.o3.getV().isEmpty())) {
 		        O3=aqiObject.data.iaqi.o3.getV();
 		        } else O3="0";
 
-		        if ((aqiObject.data.iaqi.w.getV()!= "null")||(aqiObject.data.iaqi.w.getV()!= "")) {
+		        if ((aqiObject.data.iaqi.w.getV()!= null) ||(aqiObject.data.iaqi.w.getV().isEmpty())) {
 		        w=aqiObject.data.iaqi.w.getV();
 		        } else w="0";
 
-		        if ((aqiObject.data.iaqi.pm10.getV()!= "null") || (aqiObject.data.iaqi.pm10.getV()!= "")){
+		        if ((aqiObject.data.iaqi.pm10.getV()!= null) ||(aqiObject.data.iaqi.pm10.getV().isEmpty())){
 		        pm10=aqiObject.data.iaqi.pm10.getV();
 		        } else pm10="0";
 
-		        if ((aqiObject.data.iaqi.pm25.getV()!= "null")||(aqiObject.data.iaqi.pm25.getV()!= "")) {
+		        if ((aqiObject.data.iaqi.pm25.getV()!= null) ||(aqiObject.data.iaqi.pm25.getV().isEmpty())) {
 		        pm25=aqiObject.data.iaqi.pm25.getV();
 		        } else pm25="0";
 
-		        if ((aqiObject.data.iaqi.t.getV()!= "null")||(aqiObject.data.iaqi.t.getV()!= "")) {
+		        if ((aqiObject.data.iaqi.t.getV()!= null) ||(aqiObject.data.iaqi.t.getV().isEmpty())) {
 		        t=aqiObject.data.iaqi.t.getV();
 		        } else t="0";
 
